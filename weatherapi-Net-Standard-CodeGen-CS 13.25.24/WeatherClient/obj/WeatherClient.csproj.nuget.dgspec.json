@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/georgelee/Desktop/weatherapi-Net-Standard-CodeGen-CS 13.25.24/WeatherClient/WeatherClient.csproj": {}
+  },
+  "projects": {
+    "/Users/georgelee/Desktop/weatherapi-Net-Standard-CodeGen-CS 13.25.24/WeatherAPI.Standard/WeatherAPI.Standard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/georgelee/Desktop/weatherapi-Net-Standard-CodeGen-CS 13.25.24/WeatherAPI.Standard/WeatherAPI.Standard.csproj",
+        "projectName": "WeatherAPI.Standard",
+        "projectPath": "/Users/georgelee/Desktop/weatherapi-Net-Standard-CodeGen-CS 13.25.24/WeatherAPI.Standard/WeatherAPI.Standard.csproj",
+        "packagesPath": "/Users/georgelee/.nuget/packages/",
+        "outputPath": "/Users/georgelee/Desktop/weatherapi-Net-Standard-CodeGen-CS 13.25.24/WeatherAPI.Standard/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/georgelee/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/georgelee/Desktop/weatherapi-Net-Standard-CodeGen-CS 13.25.24/WeatherClient/WeatherClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/georgelee/Desktop/weatherapi-Net-Standard-CodeGen-CS 13.25.24/WeatherClient/WeatherClient.csproj",
+        "projectName": "WeatherClient",
+        "projectPath": "/Users/georgelee/Desktop/weatherapi-Net-Standard-CodeGen-CS 13.25.24/WeatherClient/WeatherClient.csproj",
+        "packagesPath": "/Users/georgelee/.nuget/packages/",
+        "outputPath": "/Users/georgelee/Desktop/weatherapi-Net-Standard-CodeGen-CS 13.25.24/WeatherClient/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/georgelee/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/georgelee/Desktop/weatherapi-Net-Standard-CodeGen-CS 13.25.24/WeatherAPI.Standard/WeatherAPI.Standard.csproj": {
+                "projectPath": "/Users/georgelee/Desktop/weatherapi-Net-Standard-CodeGen-CS 13.25.24/WeatherAPI.Standard/WeatherAPI.Standard.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.13.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
